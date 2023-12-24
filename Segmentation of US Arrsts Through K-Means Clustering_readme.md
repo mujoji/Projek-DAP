@@ -33,6 +33,7 @@ arrests$UrbanPop <- as.numeric(arrests$UrbanPop)
 str(arrests)
 ```
 ![image](https://github.com/mujoji/Projek-DAP-Muzakki-Naia/assets/147910315/2bc7db3b-dc8f-4f99-8069-6b31d145fc47)
+
 arrests$Assault <- as.numeric(arrests$Assault) : Mengubah tipe data kolom "Assault" menjadi numerik dengan fungsi as.numeric(). Hal ini mungkin diperlukan jika kolom tersebut dianggap sebagai karakter atau faktor, dan perlu diubah menjadi tipe numerik untuk analisis data.
 arrests$UrbanPop <- as.numeric(arrests$UrbanPop) : Sama seperti baris sebelumnya, mengubah tipe data kolom "UrbanPop" menjadi numerik dengan fungsi as.numeric().
 str(arrests) : Menampilkan struktur dataset setelah perubahan dilakukan. Output menunjukkan bahwa variabel Assault dan UrbanPop sekarang memiliki tipe data numerik (num), berbeda dengan sebelumnya yang merupakan tipe data integer (int).
