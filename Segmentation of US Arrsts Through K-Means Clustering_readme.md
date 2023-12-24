@@ -131,12 +131,3 @@ fviz_cluster(km, data = arrests_km)
 ```
 ![image](https://github.com/mujoji/Projek-DAP-Muzakki-Naia/assets/147910315/9c952f23-8c34-42bb-ac06-aa2ba5561fbb)
 fviz_cluster(km, data = arrests_km): Ini digunakan untuk membuat visualisasi dari hasil k-means model (km) menggunakan paket factoextra. Biasanya, ini akan menampilkan centroid dari setiap klaster yang dihasilkan dari k-means. Namun, dalam code yang diberikan, terdapat kebingungan antara objek yang digunakan (km) dan data yang dipakai (arrests_km). Pemanggilan fungsi fviz_cluster biasanya menggunakan model k-means (km) beserta data yang telah di-scaled sebelumnya untuk visualisasi yang tepat.
-
-
-
-
-
-
- . 
- 
-
