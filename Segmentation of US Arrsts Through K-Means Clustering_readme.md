@@ -18,11 +18,12 @@ str(arrests)
 colSums(is.na(arrests))
 ```
 ![image](https://github.com/mujoji/Projek-DAP-Muzakki-Naia/assets/147910315/ad807db4-8541-44ba-81a1-fc3267888853)
-arrests <- read.csv("~/DAP/arrests/USArrests.csv") : Membaca file CSV dan menyimpannya ke dalam variabel arrests.
-View(arrests) : Menampilkan dataset arrests dalam format tabular untuk memberikan gambaran umum tentang data yang terbaca.
-dim(arrests) : Menampilkan jumlah baris dan kolom dalam dataset. Hasilnya menunjukkan bahwa dataset memiliki 50 baris dan 5 kolom.
-str(arrests) : Menampilkan struktur dataset, yaitu tipe data dan struktur variabel. Output menunjukkan ada 5 variabel: X (nama negara bagian), Murder, Assault, UrbanPop, dan Rape. Variabel X adalah karakter, sementara yang lainnya adalah numerik.
-colSums(is.na(arrests)) : Melakukan pengecekan pada setiap variabel untuk melihat apakah terdapat nilai yang hilang (NA). Hasilnya menunjukkan bahwa tidak ada nilai yang hilang dalam setiap variabel, karena semua nilai adalah 0.
+
+> arrests <- read.csv("~/DAP/arrests/USArrests.csv") : Membaca file CSV dan menyimpannya ke dalam variabel arrests.
+> View(arrests) : Menampilkan dataset arrests dalam format tabular untuk memberikan gambaran umum tentang data yang terbaca.
+> dim(arrests) : Menampilkan jumlah baris dan kolom dalam dataset. Hasilnya menunjukkan bahwa dataset memiliki 50 baris dan 5 kolom.
+> str(arrests) : Menampilkan struktur dataset, yaitu tipe data dan struktur variabel. Output menunjukkan ada 5 variabel: X (nama negara bagian), Murder, Assault, UrbanPop, dan Rape. Variabel X adalah karakter, sementara yang lainnya adalah numerik.
+> colSums(is.na(arrests)) : Melakukan pengecekan pada setiap variabel untuk melihat apakah terdapat nilai yang hilang (NA). Hasilnya menunjukkan bahwa tidak ada nilai yang hilang dalam setiap variabel, karena semua nilai adalah 0.
 
 
 ```R
